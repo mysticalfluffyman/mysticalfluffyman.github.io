@@ -79,6 +79,9 @@ class _DashBoardState extends State<DashBoard> {
                                     width: constraints.maxWidth * 0.4,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
+                                        boxShadow: [
+                                          BoxShadow(offset: Offset(1, 2))
+                                        ],
                                         borderRadius:
                                             BorderRadius.circular(20)),
                                   ),
@@ -91,6 +94,9 @@ class _DashBoardState extends State<DashBoard> {
                                     width: constraints.maxWidth * 0.4,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
+                                        boxShadow: [
+                                          BoxShadow(offset: Offset(1, 2))
+                                        ],
                                         borderRadius:
                                             BorderRadius.circular(20)),
                                   ),
@@ -106,6 +112,9 @@ class _DashBoardState extends State<DashBoard> {
                                     width: constraints.maxWidth * 0.4,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
+                                        boxShadow: [
+                                          BoxShadow(offset: Offset(1, 2))
+                                        ],
                                         borderRadius:
                                             BorderRadius.circular(20)),
                                   ),
@@ -118,6 +127,9 @@ class _DashBoardState extends State<DashBoard> {
                                     width: constraints.maxWidth * 0.4,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
+                                        boxShadow: [
+                                          BoxShadow(offset: Offset(1, 2))
+                                        ],
                                         borderRadius:
                                             BorderRadius.circular(20)),
                                   ),

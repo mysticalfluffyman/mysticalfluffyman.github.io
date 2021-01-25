@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:stinky_fish/dashboard.dart';
 import 'package:stinky_fish/login.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DashBoard(),
+      home: LoginPage(),
     );
   }
 }
