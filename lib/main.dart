@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:stinky_fish/dashboard.dart';
 import 'package:stinky_fish/login.dart';
 
 void main() {
@@ -13,9 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: LoginPage(),
+          primarySwatch: Colors.blue,
+          textTheme: GoogleFonts.openSansTextTheme()),
+      home: DashBoard(),
     );
   }
 }
