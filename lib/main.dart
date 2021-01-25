@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stinky_fish/dashboard.dart';
 import 'package:stinky_fish/login.dart';
 
 void main() {
@@ -10,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginPage(),
+      home: DashBoard(),
     );
   }
 }

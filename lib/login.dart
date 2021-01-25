@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:stinky_fish/dashboard.dart';
 import 'package:stinky_fish/signup.dart';
 
 class LoginPage extends StatefulWidget {
@@ -68,7 +69,12 @@ class _LoginPageState extends State<LoginPage> {
                             child: RaisedButton(
                               textColor: Colors.white,
                               color: Colors.black,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => DashBoard()));
+                              },
                               padding: EdgeInsets.all(20),
                               child: Text("LOGIN"),
                             ),
