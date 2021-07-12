@@ -1,0 +1,4 @@
+#Tue Jul 13 00:57:42 NPT 2021
+base.0=E\:\\colab\\stinky_fish\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
