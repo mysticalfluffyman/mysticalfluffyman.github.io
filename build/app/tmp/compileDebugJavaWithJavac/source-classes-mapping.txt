@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/example/stinky_fish/BuildConfig.java
- com.example.stinky_fish.BuildConfig
