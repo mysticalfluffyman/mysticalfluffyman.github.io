@@ -3,6 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:stinky_fish/Screens/CustomerProfile.dart';
 import 'package:stinky_fish/Screens/sales.dart';
 import 'Screens/Home.dart';
+import 'package:stinky_fish/Screens/product.dart';
+import 'Screens/dashboard.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -21,6 +24,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Color(0XFFAF96E5),
           textTheme: GoogleFonts.openSansTextTheme()),
       home: Home(),
+
     );
   }
 }
