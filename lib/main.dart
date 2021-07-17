@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:stinky_fish/Screens/product.dart';
 import 'Screens/dashboard.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           textTheme: GoogleFonts.openSansTextTheme()),
-      home: Dashboard(),
+      home: Product(),
     );
   }
 }
