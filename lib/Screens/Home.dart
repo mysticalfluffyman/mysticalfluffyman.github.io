@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:stinky_fish/Screens/CustomerProfile.dart';
 import 'package:stinky_fish/Screens/dashboard.dart';
+import 'package:stinky_fish/Screens/product.dart';
 import 'package:stinky_fish/icons/CustomIcons.dart';
 import 'package:stinky_fish/widgets/drawerCard.dart';
 import 'package:stinky_fish/widgets/homeStatCard.dart';
@@ -104,7 +105,7 @@ class _HomeState extends State<Home> {
                 GestureDetector(
                   onTap: () {
                     setState(() {
-                      // bodyindex = 1;
+                      bodyindex = 2;
                     });
                     Navigator.pop(context);
                   },
@@ -164,7 +165,8 @@ class _HomeState extends State<Home> {
         ),
         body: Padding(
             padding: const EdgeInsets.only(top: 8.0),
-            child: [Dashboard(), CustomerProfile()].elementAt(bodyindex)),
+            child: [Dashboard(), CustomerProfile(), Product()]
+                .elementAt(bodyindex)),
       ),
     );
   }
